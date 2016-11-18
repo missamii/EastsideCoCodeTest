@@ -2,6 +2,7 @@ body {
   background-color: grey;
 }
 .social {
+  background-color: pink;
   float: left;
   margin: 5px;
   padding: 15px;
@@ -9,7 +10,7 @@ body {
   height: 300px;
   border: 1px solid black;
 }
-#more {
+.button {
   /*do button style here*/
 }
 a {
