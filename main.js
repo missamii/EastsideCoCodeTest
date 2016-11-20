@@ -1,6 +1,7 @@
 window.onload = function(){
   console.log('DOM loaded');
 
+// var loadMore = "";
 var socialDiv = document.getElementById('social');
 var button = document.getElementById('button');
   button.addEventListener('click', function() {
@@ -19,12 +20,13 @@ var button = document.getElementById('button');
 });
 function appendSocial(data) {
   var html = "";
+console.log(data);
     for (var i = 0; i < data.length; i++) {
-      htmlString += "<p>" + data[i].items + data[i].items_id.text + data[i].items_id +"</p>";
+      html += "<p>" + data[i].items + data[i].items_id.text + data[i].items_id +"</p>";
     }
 
-    socialDiv.document.getElementById("social").innerHTML = "Hello !";
-  // socialDiv.insertAdjacentHTML('beforeend', 'html');
+    // socialDiv.document.getElementById("social").innerHTML = "Hello !";
+  socialDiv.insertAdjacentHTML('beforeend', 'html');
 
 
 
