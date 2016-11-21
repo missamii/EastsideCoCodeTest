@@ -1,7 +1,7 @@
 body {
   background-color: grey;
 }
-.social {
+#divsocial {
   background-color: pink;
   float: left;
   margin: 5px;
@@ -12,6 +12,7 @@ body {
 }
 .button {
   /*do button style here*/
+  /*display: hide;*/
 }
 a {
   /*link styling here*/
