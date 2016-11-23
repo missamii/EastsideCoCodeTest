@@ -1,19 +1,28 @@
 body {
-  background-color: grey;
+  background-color: #e0e0e0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
-#divsocial {
-  background-color: pink;
-  float: left;
-  margin: 5px;
-  padding: 15px;
+main {
+  flex: 1 0 auto;
+}
+.container a:link {
+  color: #aa00ff;
+}
+
+#boxes {
+  display: inline-block;
+  overflow: scroll;
+  /*float: right;*/
+  margin: 10px 3px 3px 10px;
   max-width: 300px;
-  height: 300px;
-  border: 1px solid black;
+  height: 440px;
 }
-.button {
-  /*do button style here*/
-  /*display: hide;*/
+#boxes a:link {
+  color: #aa00ff;
 }
-a {
-  /*link styling here*/
+#button {
+  display: block;
+  margin: 0 auto;
 }
